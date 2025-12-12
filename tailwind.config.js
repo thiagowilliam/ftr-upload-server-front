@@ -1,4 +1,4 @@
-import { theme } from 'tailwindcss/defaultConfig'
+import defaultTheme from 'tailwindcss/defaultTheme'
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -15,7 +15,7 @@ export default {
         xxs: "0.625rem",
       },
       fontFamily: {
-        sans: ["Inter", ...theme.fontFamily.sans],
+        sans: ["Inter", ...defaultTheme.fontFamily.sans],
       },
       boxShadow: {
         shape:
